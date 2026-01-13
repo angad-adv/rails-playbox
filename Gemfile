@@ -60,6 +60,9 @@ group :development do
   # gem "spring"
 end
 
+gem "jwt"
+gem "bcrypt", "~> 3.1"
+
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
