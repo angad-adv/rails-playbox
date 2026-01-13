@@ -67,5 +67,7 @@ class UsersController < ApplicationController
         }
       }
     end
+
+    # every code here is cool
   end
   
