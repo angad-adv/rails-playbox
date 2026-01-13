@@ -14,3 +14,5 @@ Rails.application.routes.draw do
 end
 
 # this is the main code
+
+# this is genuinely the only thing you require
