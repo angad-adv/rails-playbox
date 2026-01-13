@@ -13,6 +13,6 @@ Rails.application.routes.draw do
   get "/students/stuff", to: "students#stuff"
 end
 
-# this is the main code
+# this is another code
 
 # hey
