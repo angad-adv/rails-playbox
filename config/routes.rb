@@ -14,5 +14,3 @@ Rails.application.routes.draw do
 end
 
 # this is the main code
-
-#this is a major mistake
