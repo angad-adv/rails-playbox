@@ -13,8 +13,4 @@ Rails.application.routes.draw do
   get "/students/stuff", to: "students#stuff"
 end
 
-# this really is the main branch
-
-# now there is some new stuff on here
-
-# hi
+# this is finally amazing
