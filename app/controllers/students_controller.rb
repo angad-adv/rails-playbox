@@ -28,14 +28,11 @@ class StudentsController < ApplicationController
         # students = Student.order(created_at: :desc, age: :desc)
         # return render json: students
 
-        students = Student.all
-        return render json: students[0].courses
-
-
         begin
             students = Student.all
+            return render json: students[0].courses
         rescue => e
-            puts e.message
+            render json: { error: e.message }, status: :internal_server_error
         end          
         
         #  🟣 ADVANCED / REAL WORLD TASKS
