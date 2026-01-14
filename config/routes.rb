@@ -17,7 +17,3 @@ end
 
 # now there is some new stuff on here
 #  nah this is new
-
-# hello 1
-# hello 2
-# hello 3
