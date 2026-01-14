@@ -14,5 +14,3 @@ Rails.application.routes.draw do
 end
 
 # hi there
-
-# vr2 ewcf h1f
