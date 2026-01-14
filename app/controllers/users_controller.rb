@@ -54,7 +54,7 @@ class UsersController < ApplicationController
             email: user.email
           }
         }, status: :ok
-      end
+    end
       
   
     # GET /users
@@ -67,5 +67,5 @@ class UsersController < ApplicationController
         }
       }
     end
-  end
+end
   
