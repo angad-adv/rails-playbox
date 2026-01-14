@@ -19,3 +19,5 @@ module Authenticatable
     end
   end
   
+
+  # i have been really happy, and now idk what to do 
