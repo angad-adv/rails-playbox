@@ -31,6 +31,13 @@ class StudentsController < ApplicationController
         students = Student.all
         return render json: students[0].courses
 
+
+        begin
+            students = Student.all
+        rescue => e
+            puts e.message
+        end          
+        
         #  🟣 ADVANCED / REAL WORLD TASKS
 
         # 15️⃣ Get students who have A grade in any course
