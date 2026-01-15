@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   # root "posts#index"
   post "/users/login", to: "users#login"
   post "/users/signup", to: "users#signup"
-
+  get "/users/index", to: "users#index"
   get "/students/stuff", to: "students#stuff"
 end
 
