@@ -13,8 +13,14 @@ Rails.application.routes.draw do
   get "/students/stuff", to: "students#stuff"
 end
 
+# hey there
+
 # this is finally amazing !
 # im in the main branch
 # here a new commit on main 
 # 
 # another main commit
+
+# hello
+# hi
+# bye
